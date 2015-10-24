@@ -24,7 +24,7 @@ function FindProxyForURL(url, host) {
 
     for (var i = 0; i < OUT_WALLS.length; i++ ) {
         if (shExpMatch(host, OUT_WALLS[i])) {
-    	    return "PROXY 10.16.13.18:8080; SOCKS5 10.16.13.18:8080 SOCKS 10.16.13.18:8080";
+    	    return "PROXY 10.16.13.18:8080; SOCKS5 10.16.13.18:8080; SOCKS 10.16.13.18:8080";
         }
     }
 
