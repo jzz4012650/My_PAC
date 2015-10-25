@@ -3,6 +3,8 @@ function FindProxyForURL(url, host) {
     var OUT_WALLS = [
         // 谷歌系
         "*.google.com",
+        "*.google.com.tw",
+        "*.google.com.hk",
         "*.youtube.com",
         "*.android.com",
         // 国外社交系
